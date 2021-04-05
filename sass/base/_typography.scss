@@ -4,7 +4,14 @@ h1 {
 h2 {
     font-size: clamp(1.8rem, 3.5vw, 3.5rem);
 }
+h3 {
+    font-size: clamp(1.3rem, 7vw, 2.6rem);
+}
 
 label {
     font-size: clamp(1.8rem, 3.5vw, 3rem);
+}
+
+p {
+    font-size: clamp(1.3rem, 2vw, 1.6rem);
 }
