@@ -3,10 +3,9 @@ import "./styles.scss";
 import $dom from './helpers/dom'
 
 //chargement des composants
-import components from './components/components.load';
-components.laod();
+import Components from './components/components.load';
+import PagesComponents from "./pages/page-component-load";
+Components.load();
+PagesComponents.load();
 
-const app = $dom.elm("#app");
-app.insertAdjacentHTML("beforeend", `
-    <card-component></card-component>
-`)
+$dom.innerHTMLElm("#app", "<navigate-card></navigate-card>")
