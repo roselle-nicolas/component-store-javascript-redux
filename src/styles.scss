@@ -1,6 +1,14 @@
-$primary-color: white;
-$bg: black;
-h1 {
-  color: $primary-color;
-  background-color: $bg;
-}
+//base
+@import '../sass/base/reset';
+@import '../sass/base/font';
+@import '../sass/base/html';
+@import '../sass/base/body';
+@import '../sass/base/app';
+@import '../sass/base/typography';
+//vendors
+//utils
+@import '../sass/utils/colors';
+//components
+//layout
+//pages
+//layout
