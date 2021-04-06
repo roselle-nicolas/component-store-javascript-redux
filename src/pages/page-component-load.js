@@ -1,4 +1,4 @@
-import NavigateCard from "./navigation-card/navigation-card";
+import NavigateCard from "./navigation-card/navigate-card";
 
 const PagesComponents = {
     load() {
